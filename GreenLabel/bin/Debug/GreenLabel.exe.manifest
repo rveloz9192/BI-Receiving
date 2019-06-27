@@ -127,14 +127,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GreenLabel.exe" size="223128">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GreenLabel.exe" size="226200">
       <assemblyIdentity name="GreenLabel" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>j1haCZ+4ucKID6JNNdrIiIc8zmn56CJaPjh9Z1pwsNc=</dsig:DigestValue>
+        <dsig:DigestValue>d+EcYiTfm9Iauh518IUMXU1QyVuTrERs9/RY0ZfAkFw=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -29,7 +29,6 @@ C:\Users\rveloz\source\repos\roger-maddocks-bi\GreenLabel\bin\Debug\GreenLabel.a
 C:\Users\rveloz\source\repos\roger-maddocks-bi\GreenLabel\obj\Debug\GreenLabel.exe.manifest
 C:\Users\rveloz\source\repos\roger-maddocks-bi\GreenLabel\obj\Debug\GreenLabel.application
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.csprojAssemblyReference.cache
-C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.Form1.resources
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.Properties.Resources.resources
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.csproj.GenerateResource.cache
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.csproj.CoreCompileInputs.cache
@@ -58,3 +57,5 @@ C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\FlaUI.UIA3.xml
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.exe.manifest
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.application
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.csproj.CopyComplete
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.Misc2Stock.resources
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.QA.resources

@@ -231,11 +231,5 @@
   <ItemGroup>
     <Content Include="Icon96.ico" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\dwalker17\BiSync-Share\BISyncAutomation\BISyncAutomation.csproj">
-      <Project>{272a34ab-bdb3-4c65-92ce-f194981eb2af}</Project>
-      <Name>BISyncAutomation</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

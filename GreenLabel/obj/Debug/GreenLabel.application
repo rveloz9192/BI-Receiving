@@ -7,14 +7,14 @@
     <framework targetVersion="4.7.2" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="GreenLabel.exe.manifest" size="9910">
+    <dependentAssembly dependencyType="install" codebase="GreenLabel.exe.manifest" size="9911">
       <assemblyIdentity name="GreenLabel.exe" version="1.0.0.6" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+zyGjZ5L7skK/aWkBKnxcLgqSHVGGgQwae6fTaJdmlA=</dsig:DigestValue>
+        <dsig:DigestValue>9SHQv6G4k3tyGqAcNE30O+H2QX9zqu7AC9JhVDWfzKs=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -120,7 +120,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BISync-Receiving\BISync Receiving.csproj">
+    <ProjectReference Include="..\BISync-Receiving-Refactor\BISync Receiving.csproj">
       <Project>{d39a555d-61df-467e-8f46-8cb17381c41e}</Project>
       <Name>BISync Receiving</Name>
     </ProjectReference>

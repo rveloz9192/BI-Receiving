@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BISync Receiving.exe" size="119808">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BISync Receiving.exe" size="1950208">
       <assemblyIdentity name="BISync Receiving" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>P7Cy1P/0cmfMlCc3qhHFaCd+Q7ZO25ZzaadJ3ei6FOA=</dsig:DigestValue>
+        <dsig:DigestValue>/Ursc2ZwnBYesQoVbvO2My+wyOujD6DpdhAW6owuLEE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>RM7rsm4aILjWS2MfjlJUgESA3XMmqJqfbXfX7bxr5G0=</dsig:DigestValue>
+        <dsig:DigestValue>Cr2BtjYfCehco0nJ6UecOonUc0T6PcHRHw3iozk8JQE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -134,7 +134,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>DlOZzygY6EhGXDGw4vonu94y5wgKr0sYSo2FcylYRWo=</dsig:DigestValue>
+        <dsig:DigestValue>j1haCZ+4ucKID6JNNdrIiIc8zmn56CJaPjh9Z1pwsNc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

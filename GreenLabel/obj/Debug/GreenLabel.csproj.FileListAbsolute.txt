@@ -28,3 +28,33 @@ C:\Users\rveloz\source\repos\roger-maddocks-bi\GreenLabel\bin\Debug\GreenLabel.e
 C:\Users\rveloz\source\repos\roger-maddocks-bi\GreenLabel\bin\Debug\GreenLabel.application
 C:\Users\rveloz\source\repos\roger-maddocks-bi\GreenLabel\obj\Debug\GreenLabel.exe.manifest
 C:\Users\rveloz\source\repos\roger-maddocks-bi\GreenLabel\obj\Debug\GreenLabel.application
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.csprojAssemblyReference.cache
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.Form1.resources
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.Properties.Resources.resources
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.csproj.GenerateResource.cache
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.csproj.CoreCompileInputs.cache
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.exe
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.pdb
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\GreenLabel.exe.config
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\GreenLabel.exe.manifest
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\GreenLabel.application
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\GreenLabel.exe
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\GreenLabel.pdb
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\BISync Receiving.exe
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\BISyncAutomation.dll
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\DYMO.Label.Framework.dll
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\FlaUI.Core.dll
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\SimpleTCP.dll
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\FlaUI.UIA3.dll
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\DYMO.DLS.Runtime.dll
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\DYMO.Common.dll
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\Interop.UIAutomationClient.dll
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\BISync Receiving.pdb
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\BISync Receiving.exe.config
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\BISyncAutomation.pdb
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\BISyncAutomation.dll.config
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\FlaUI.Core.xml
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\FlaUI.UIA3.xml
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.exe.manifest
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.application
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.csproj.CopyComplete

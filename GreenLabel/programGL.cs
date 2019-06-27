@@ -7,7 +7,7 @@ using DYMO.Label.Framework;
 
 namespace GreenLabel
 {
-    static class GreenLabel
+    static class programGL
     {
         /// <summary>
         /// The main entry point for the application.
@@ -20,8 +20,8 @@ namespace GreenLabel
             FrmLogin frmLogin = new FrmLogin();
             if (frmLogin.ShowDialog() == DialogResult.OK)
             {
-                Application.Run(new QA(frmLogin.UserName));
-
+                // Application.Run(new QA(frmLogin.UserName));
+                Application.Run(new Form1(frmLogin.UserName));
              
 
 

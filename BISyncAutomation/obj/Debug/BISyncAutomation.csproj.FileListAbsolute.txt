@@ -31,11 +31,6 @@ C:\Users\rveloz\source\repos\roger-maddocks-bi\BISyncAutomation\obj\Debug\BISync
 C:\Users\rveloz\source\repos\BI-Receiving\BISyncAutomation\bin\Debug\BISyncAutomation.dll.config
 C:\Users\rveloz\source\repos\BI-Receiving\BISyncAutomation\bin\Debug\BISyncAutomation.dll
 C:\Users\rveloz\source\repos\BI-Receiving\BISyncAutomation\bin\Debug\BISyncAutomation.pdb
-C:\Users\rveloz\source\repos\BI-Receiving\BISyncAutomation\bin\Debug\Castle.Core.xml
-C:\Users\rveloz\source\repos\BI-Receiving\BISyncAutomation\bin\Debug\FlaUI.Core.xml
-C:\Users\rveloz\source\repos\BI-Receiving\BISyncAutomation\bin\Debug\FlaUI.UIA3.xml
-C:\Users\rveloz\source\repos\BI-Receiving\BISyncAutomation\bin\Debug\TestStack.White.pdb
-C:\Users\rveloz\source\repos\BI-Receiving\BISyncAutomation\bin\Debug\TestStack.White.xml
 C:\Users\rveloz\source\repos\BI-Receiving\BISyncAutomation\obj\Debug\BISyncAutomation.csprojAssemblyReference.cache
 C:\Users\rveloz\source\repos\BI-Receiving\BISyncAutomation\obj\Debug\BISyncAutomation.csproj.CoreCompileInputs.cache
 C:\Users\rveloz\source\repos\BI-Receiving\BISyncAutomation\obj\Debug\BISyncAutomation.csproj.CopyComplete

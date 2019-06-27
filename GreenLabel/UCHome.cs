@@ -1,21 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Data;
 using System.Drawing;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using DYMO.Label.Framework;
 using System.Data.SqlClient;
-using System.Runtime.InteropServices;
-using System.IO;
 using System.Drawing.Printing;
 
 namespace GreenLabel
 {
-    public partial class QA : Form
+    public partial class UCHome : UserControl
     {
         string rcvrNum;
         string rev;
@@ -27,13 +24,14 @@ namespace GreenLabel
         private static readonly string sCon = "Data Source=bldrsyte8db01;Initial Catalog=EM_App;Persist Security Info=True;User ID=Travelmfg;Password=Tr@vel@mfg";
 
 
-        public QA(string username)
+        public UCHome(string username)
         {
-
             Username = username;
             InitializeComponent();
             this.Show();
         }
+
+       
 
         private void TxtReceiverNumber_TextChanged(object sender, EventArgs e)
         {
@@ -82,13 +80,7 @@ namespace GreenLabel
             }
         }
 
-
-
-
-
-
-
-        private void BtnSubmit_Click(object sender, EventArgs e)
+        private void BtnPrint_Click(object sender, EventArgs e)
         {
             rcvrNum = txtReceiverNumber.Text;
             string numCopies = numberCopies.Value.ToString();
@@ -128,7 +120,7 @@ namespace GreenLabel
 
                 //string s = $"^XA^PW700\n^FO250,50^ADN,30,20^FDBI ACCEPTED^FS\n^FO0,150^ADN,90,40^FDPN:{PN}^FS\n^FO0,250^ADN,50,30^FDPO#:{PO}^FS\n^FO0,310^ADN,90,30^FDDate:{time}^FS\n^FO0,410^ADN,50,30^FDINSP:{Username.Substring(0,2)}^FS\n^FO0,470^ADN,90,30^FDREV:{rev}^FS\n^XZ";
 
-                string s =  $"^XA^PW609^LL406\n" +
+                string s = $"^XA^PW609^LL406\n" +
                             $"^FO205,20^CF0,40,40^FDBI ACCEPTED^FS\n" +
                             $"^FO10,100^CF0,60,40^FDPN:^FS\n" +
                             $"^FO80,60^CF0,120,60^FD{PN}^FS\n" +
@@ -140,7 +132,7 @@ namespace GreenLabel
                             $"^FO80,200^CF0,60,60^FD{rev.ToUpper()}^FS\n" +
                             $"^FO80,270^FD{DateTime.Today.ToString("MM/dd/yyyy")}^FS\n" +
                             $"^FO80,160^CF0,30,25^FD{PO}^FS\n" +
-                            $"^PQ{numCopies}\n"+
+                            $"^PQ{numCopies}\n" +
                             $"^XZ";
 
 
@@ -176,10 +168,6 @@ namespace GreenLabel
 
 
         }
-
-        private void LinkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Misc2Stock misc2Stock = new Misc2Stock(Username);
-        }
     }
+    
 }

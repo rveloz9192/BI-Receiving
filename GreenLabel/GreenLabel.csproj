@@ -84,26 +84,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="RawPrinterHelper.cs" />
-    <Compile Include="QA.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="QA.Designer.cs">
-      <DependentUpon>QA.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Misc2Stock.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Misc2Stock.Designer.cs">
-      <DependentUpon>Misc2Stock.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GreenLabel.cs" />
+    <Compile Include="programGL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="QA.resx">
-      <DependentUpon>QA.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Misc2Stock.resx">
-      <DependentUpon>Misc2Stock.cs</DependentUpon>
+    <Compile Include="UCHome.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCHome.Designer.cs">
+      <DependentUpon>UCHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCM2S.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCM2S.Designer.cs">
+      <DependentUpon>UCM2S.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -115,6 +118,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="UCHome.resx">
+      <DependentUpon>UCHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCM2S.resx">
+      <DependentUpon>UCM2S.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="GreenLabel_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

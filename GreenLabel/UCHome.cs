@@ -15,7 +15,7 @@ namespace GreenLabel
     public partial class UCHome : UserControl
     {
         string rcvrNum;
-        string rev;
+        string rev, PO, PN, POline;
         SqlConnection con = new SqlConnection(sCon);
         bool printerSelected = false;
         String printerName;
@@ -23,6 +23,7 @@ namespace GreenLabel
         //ILabel lbl = DYMO.Label.Framework.Label.Open("C:\\Users\\rveloz\\source\\repos\\roger-maddocks-bi\\GreenLabel\\Resources\\Lbl.label");
         private static readonly string sCon = "Data Source=bldrsyte8db01;Initial Catalog=EM_App;Persist Security Info=True;User ID=Travelmfg;Password=Tr@vel@mfg";
 
+        
 
         public UCHome(string username)
         {
@@ -33,58 +34,16 @@ namespace GreenLabel
 
        
 
-        private void TxtReceiverNumber_TextChanged(object sender, EventArgs e)
-        {
-            if (txtReceiverNumber.Text.All(char.IsDigit))
-            {
-                rcvrNum = txtReceiverNumber.Text;
-                SqlCommand cmd = new SqlCommand(@"SELECT rcvr_num, item, ref_num, ref_line
-                                                    FROM [EM_App].[dbo].[RS_QCRcvr]
-                                                    Where rcvr_num = @RCVRNUM", con);
-                cmd.Parameters.AddWithValue("@RCVRNUM", rcvrNum);
-                con.Open();
-                SqlDataAdapter da = new SqlDataAdapter(cmd);
-                DataTable dt = new DataTable();
-
-                da.Fill(dt);
-
-                if (dt.Rows.Count > 0)
-                {
-                    string PN = dt.Rows[0][1].ToString();
-                    string PO = dt.Rows[0][2].ToString();
-                    string POline = dt.Rows[0][3].ToString();
-
-                    //Command to retrieve revision
-                    SqlCommand cmd0 = new SqlCommand(@"SELECT TOP 1 revision
-                                                                    FROM [EM_App].[dbo].[poitem_all]
-                                                                    where po_num = @PO and item = @PN and po_line = @POline", con);
-
-                    cmd0.Parameters.AddWithValue("@PO", PO);
-                    cmd0.Parameters.AddWithValue("@PN", PN);
-                    cmd0.Parameters.AddWithValue("@POline", POline);
-
-                    SqlDataAdapter da0 = new SqlDataAdapter(cmd0);
-                    DataTable dt0 = new DataTable();
-
-                    da0.Fill(dt0);
-
-                    rev = dt0.Rows[0][0].ToString();
-                    txtRevision.Text = rev;
-                }
-
-                con.Close();
-            }
-            else
-            {
-                txtReceiverNumber.Clear();
-            }
-        }
+        
 
         private void BtnPrint_Click(object sender, EventArgs e)
         {
             rcvrNum = txtReceiverNumber.Text;
             string numCopies = numberCopies.Value.ToString();
             rev = txtRevision.Text;
+            PN = txtPartNumber.Text;
+            PO = txtPO.Text;
+
 
 
 
@@ -109,9 +68,7 @@ namespace GreenLabel
             // Check to see if receiver number returned information
             if (dt1.Rows.Count > 0)
             {
-                string PN = dt1.Rows[0][1].ToString();
-                string PO = dt1.Rows[0][2].ToString();
-                string POline = dt1.Rows[0][3].ToString();
+                
 
 
 
@@ -162,12 +119,109 @@ namespace GreenLabel
 
 
             con.Close();
-            txtRevision.Clear();
             txtReceiverNumber.Clear();
+            txtRevision.Text = "A";
+            txtPO.Clear();
+            txtPartNumber.Clear();
+            numberCopies.Value = 1;
             txtReceiverNumber.Focus();
 
 
         }
+
+        private void TxtReceiverNumber_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                BtnPrint_Click(this, new EventArgs());
+            }
+            else if (txtReceiverNumber.Text.All(char.IsDigit))
+            {
+                rcvrNum = txtReceiverNumber.Text;
+                SqlCommand cmd = new SqlCommand(@"SELECT rcvr_num, item, ref_num, ref_line
+                                                    FROM [EM_App].[dbo].[RS_QCRcvr]
+                                                    Where rcvr_num = @RCVRNUM", con);
+                cmd.Parameters.AddWithValue("@RCVRNUM", rcvrNum);
+                con.Open();
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                DataTable dt = new DataTable();
+
+                da.Fill(dt);
+
+                if (dt.Rows.Count > 0)
+                {
+                    PN = dt.Rows[0][1].ToString();
+                    PO = dt.Rows[0][2].ToString();
+                    POline = dt.Rows[0][3].ToString();
+
+                    //Command to retrieve revision
+                    SqlCommand cmd0 = new SqlCommand(@"SELECT TOP 1 revision
+                                                                    FROM [EM_App].[dbo].[poitem_all]
+                                                                    where po_num = @PO and item = @PN and po_line = @POline", con);
+
+                    cmd0.Parameters.AddWithValue("@PO", PO);
+                    cmd0.Parameters.AddWithValue("@PN", PN);
+                    cmd0.Parameters.AddWithValue("@POline", POline);
+
+                    SqlDataAdapter da0 = new SqlDataAdapter(cmd0);
+                    DataTable dt0 = new DataTable();
+
+                    da0.Fill(dt0);
+                    rev = dt0.Rows[0][0].ToString();
+
+
+                }
+
+                con.Close();
+                txtRevision.Text = rev;
+                txtPO.Text = PO;
+                txtPartNumber.Text = PN;
+            }
+            else
+            {
+                txtReceiverNumber.Clear();
+            }
+        }
+        private void TxtPartNumber_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                BtnPrint_Click(this, new EventArgs());
+            }
+        }
+
+        private void TxtPO_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                BtnPrint_Click(this, new EventArgs());
+            }
+        }
+
+        private void TxtRevision_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                BtnPrint_Click(this, new EventArgs());
+            }
+        }
+
+        private void NumberCopies_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                BtnPrint_Click(this, new EventArgs());
+            }
+        }
+
+        private void UCHome_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                BtnPrint_Click(this, new EventArgs());
+            }
+        }
+
     }
     
 }

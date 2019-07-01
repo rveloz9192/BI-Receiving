@@ -49,7 +49,7 @@ namespace GreenLabel
                         $"^FO10,280^FDDATE:^FS\n" +
                         $"^FO10,340^FDINSP:^FS\n" +
                         $"^FO80,340^FD{insp.Substring(0, 2).ToUpper()}^FS\n" +
-                        $"^FO80,200^CF0,60,60^FD{rev}^FS\n" +
+                        $"^FO80,200^CF0,60,60^FD{rev.ToUpper()}^FS\n" +
                         $"^FO80,270^FD{DateTime.Today.ToString("MM/dd/yyyy")}^FS\n" +
                         $"^FO80,160^CF0,30,25^FDMISC TO STOCK^FS\n" +
                         $"^PQ{numCopies}\n" +
@@ -69,9 +69,42 @@ namespace GreenLabel
             //lbl.Print("DYMO LabelWriter 450 Turbo");
 
             con.Close();
-            txtRevision.Clear();
+            txtRevision.Text = "A";
+            numberCopies.Value = 1;
             txtPartNumber.Clear();
             txtPartNumber.Focus();
+        }
+
+        private void TxtPartNumber_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                BtnPrint_Click(this, new EventArgs());
+            }
+        }
+
+        private void TxtRevision_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                BtnPrint_Click(this, new EventArgs());
+            }
+        }
+
+        private void NumberCopies_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                BtnPrint_Click(this, new EventArgs());
+            }
+        }
+
+        private void UCM2S_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                BtnPrint_Click(this, new EventArgs());
+            }
         }
     }
 }

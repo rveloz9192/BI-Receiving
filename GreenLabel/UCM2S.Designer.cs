@@ -45,6 +45,7 @@
             this.txtPartNumber.Name = "txtPartNumber";
             this.txtPartNumber.Size = new System.Drawing.Size(145, 27);
             this.txtPartNumber.TabIndex = 0;
+            this.txtPartNumber.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtPartNumber_KeyDown);
             // 
             // txtRevision
             // 
@@ -53,6 +54,8 @@
             this.txtRevision.Name = "txtRevision";
             this.txtRevision.Size = new System.Drawing.Size(27, 27);
             this.txtRevision.TabIndex = 1;
+            this.txtRevision.Text = "A";
+            this.txtRevision.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtRevision_KeyDown);
             // 
             // lblPartNumber
             // 
@@ -101,6 +104,7 @@
             0,
             0,
             0});
+            this.numberCopies.KeyDown += new System.Windows.Forms.KeyEventHandler(this.NumberCopies_KeyDown);
             // 
             // btnPrint
             // 
@@ -128,6 +132,7 @@
             this.Controls.Add(this.lblRevision);
             this.Name = "UCM2S";
             this.Size = new System.Drawing.Size(650, 150);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.UCM2S_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.numberCopies)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

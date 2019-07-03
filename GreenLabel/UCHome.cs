@@ -135,7 +135,26 @@ namespace GreenLabel
             {
                 BtnPrint_Click(this, new EventArgs());
             }
-            else if (txtReceiverNumber.Text.All(char.IsDigit))
+        }
+        private void TxtPartNumber_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                BtnPrint_Click(this, new EventArgs());
+            }
+        }
+
+        private void TxtPO_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                BtnPrint_Click(this, new EventArgs());
+            }
+        }
+
+        private void TxtReceiverNumber_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (txtReceiverNumber.Text.All(char.IsDigit))
             {
                 rcvrNum = txtReceiverNumber.Text;
                 SqlCommand cmd = new SqlCommand(@"SELECT rcvr_num, item, ref_num, ref_line
@@ -180,21 +199,6 @@ namespace GreenLabel
             else
             {
                 txtReceiverNumber.Clear();
-            }
-        }
-        private void TxtPartNumber_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                BtnPrint_Click(this, new EventArgs());
-            }
-        }
-
-        private void TxtPO_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-                BtnPrint_Click(this, new EventArgs());
             }
         }
 

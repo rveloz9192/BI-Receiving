@@ -123,6 +123,7 @@
             this.txtReceiverNumber.Size = new System.Drawing.Size(145, 27);
             this.txtReceiverNumber.TabIndex = 0;
             this.txtReceiverNumber.KeyDown += new System.Windows.Forms.KeyEventHandler(this.TxtReceiverNumber_KeyDown);
+            this.txtReceiverNumber.KeyUp += new System.Windows.Forms.KeyEventHandler(this.TxtReceiverNumber_KeyUp);
             // 
             // txtPO
             // 

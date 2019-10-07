@@ -659,10 +659,10 @@ namespace BISync_Receiving
             Automator syteline = new Automator("WinStudio", "Sign In", procPath);
             Application app = Application.Attach(Process.GetProcesses().FirstOrDefault(w => w.ProcessName == "WinStudio").Id);
             auto = new UIA3Automation();
-            SLMainWin = app.GetMainWindow(auto, TimeSpan.FromSeconds(3));
+            SLMainWin = app.GetMainWindow(auto, TimeSpan.FromSeconds(1));
             while (SLMainWin == null)
             {
-                SLMainWin = app.GetMainWindow(auto, TimeSpan.FromSeconds(3));
+                SLMainWin = app.GetMainWindow(auto, TimeSpan.FromSeconds(1));
             }
             syteline.RefreshMain("Infor ERP SL (EM)", "WinStudio");                    
             Keyboard.TypeSimultaneously(VirtualKeyShort.CONTROL, VirtualKeyShort.KEY_W);

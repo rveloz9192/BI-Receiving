@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace BISync_Receiving.Properties {
+namespace BI_Receiving.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

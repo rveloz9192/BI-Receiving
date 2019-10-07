@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BISync Receiving", "BISync Receiving.csproj", "{D39A555D-61DF-467E-8F46-8CB17381C41E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BI Receiving", "BI Receiving.csproj", "{D39A555D-61DF-467E-8F46-8CB17381C41E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BISyncAutomation", "..\BISyncAutomation\BISyncAutomation.csproj", "{272A34AB-BDB3-4C65-92CE-F194981EB2AF}"
 EndProject

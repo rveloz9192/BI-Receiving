@@ -21,7 +21,7 @@ namespace GreenLabel
             if (frmLogin.ShowDialog() == DialogResult.OK)
             {
                 // Application.Run(new QA(frmLogin.UserName));
-                Application.Run(new Form1(frmLogin.UserName));
+                Application.Run(new Main(frmLogin.UserName));
              
 
 

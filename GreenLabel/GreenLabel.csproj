@@ -25,7 +25,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
-    <ApplicationRevision>13</ApplicationRevision>
+    <ApplicationRevision>17</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -84,11 +84,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
     <Compile Include="RawPrinterHelper.cs" />
     <Compile Include="programGL.cs" />
@@ -99,14 +99,20 @@
     <Compile Include="UCHome.Designer.cs">
       <DependentUpon>UCHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCISAP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCISAP.Designer.cs">
+      <DependentUpon>UCISAP.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCM2S.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UCM2S.Designer.cs">
       <DependentUpon>UCM2S.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -120,6 +126,9 @@
     </Compile>
     <EmbeddedResource Include="UCHome.resx">
       <DependentUpon>UCHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCISAP.resx">
+      <DependentUpon>UCISAP.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCM2S.resx">
       <DependentUpon>UCM2S.cs</DependentUpon>
@@ -139,9 +148,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BISync-Receiving-Refactor\BISync Receiving.csproj">
+    <ProjectReference Include="..\BISync-Receiving-Refactor\BI Receiving.csproj">
       <Project>{d39a555d-61df-467e-8f46-8cb17381c41e}</Project>
-      <Name>BISync Receiving</Name>
+      <Name>BI Receiving</Name>
     </ProjectReference>
     <ProjectReference Include="..\BISyncAutomation\BISyncAutomation.csproj">
       <Project>{272a34ab-bdb3-4c65-92ce-f194981eb2af}</Project>

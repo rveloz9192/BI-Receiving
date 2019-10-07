@@ -92,6 +92,7 @@ namespace BISync_Receiving
                     {
                         BringMainFormToForeground(this, EventArgs.Empty);
                         MessageBox.Show("An error has occured.\n" +
+                            "The issue is with the GetSerialNumber function.\n\n" + 
                             "Close all Syteline forms, other than the Units form, before pressing 'OK'.\n\n" +
                             "Details:\n" + ex.Message, "Unhandled Exception");
                         view.ListOutput.ConsoleOut("");
@@ -249,7 +250,7 @@ namespace BISync_Receiving
                 return;
             }
             //var value = scanner.SendMessage($"LON{bank}", scannerDict[view.SelectedScanner]);
-            var value = scanner.SendMessage($"LON", scannerDict[view.SelectedScanner]);
+            var value = scanner.SendMessage($"LON{bank}", scannerDict[view.SelectedScanner]);
             switch (value)
             {
                 case "Read Error":
@@ -276,6 +277,7 @@ namespace BISync_Receiving
                     {
                         BringMainFormToForeground(this, EventArgs.Empty);
                         MessageBox.Show("An error has occured.\n" +
+                            "The issue is with the ScanBarcode function.\n\n" +
                             "Close all Syteline forms, other than the Units form, before pressing 'OK'.\n\n" +
                             "Details:\n" + ex.Message, "Unhandled Exception");
                         view.ListOutput.ConsoleOut("");

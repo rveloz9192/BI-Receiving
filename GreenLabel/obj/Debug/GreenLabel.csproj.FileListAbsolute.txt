@@ -33,7 +33,6 @@ C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\GreenLabel.exe.ma
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\GreenLabel.application
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\GreenLabel.exe
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\GreenLabel.pdb
-C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\BISync Receiving.exe
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\BISyncAutomation.dll
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\DYMO.Label.Framework.dll
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\FlaUI.Core.dll
@@ -42,14 +41,11 @@ C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\FlaUI.UIA3.dll
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\DYMO.DLS.Runtime.dll
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\DYMO.Common.dll
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\Interop.UIAutomationClient.dll
-C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\BISync Receiving.pdb
-C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\BISync Receiving.exe.config
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\BISyncAutomation.pdb
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\BISyncAutomation.dll.config
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\FlaUI.Core.xml
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\FlaUI.UIA3.xml
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.csprojAssemblyReference.cache
-C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.Form1.resources
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.Properties.Resources.resources
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.UCHome.resources
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.UCM2S.resources
@@ -60,3 +56,8 @@ C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.applic
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.csproj.CopyComplete
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.exe
 C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.pdb
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.Main.resources
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\obj\Debug\GreenLabel.UCISAP.resources
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\BI Receiving.exe
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\BI Receiving.pdb
+C:\Users\rveloz\source\repos\BI-Receiving\GreenLabel\bin\Debug\BI Receiving.exe.config

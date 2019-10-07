@@ -368,7 +368,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(343, 599);
+            this.ClientSize = new System.Drawing.Size(698, 599);
             this.Controls.Add(this.stationLabel);
             this.Controls.Add(this.stationComboBox);
             this.Controls.Add(this.productComboBox);

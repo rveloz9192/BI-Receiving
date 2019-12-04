@@ -1,0 +1,10 @@
+C:\Users\rveloz\source\repos\Engraver\PycommCheck\bin\Debug\PycommCheck.exe.config
+C:\Users\rveloz\source\repos\Engraver\PycommCheck\bin\Debug\PycommCheck.exe
+C:\Users\rveloz\source\repos\Engraver\PycommCheck\bin\Debug\PycommCheck.pdb
+C:\Users\rveloz\source\repos\Engraver\PycommCheck\obj\Debug\PycommCheck.csprojAssemblyReference.cache
+C:\Users\rveloz\source\repos\Engraver\PycommCheck\obj\Debug\PycommCheck.Properties.Resources.resources
+C:\Users\rveloz\source\repos\Engraver\PycommCheck\obj\Debug\PycommCheck.PycommChecker.resources
+C:\Users\rveloz\source\repos\Engraver\PycommCheck\obj\Debug\PycommCheck.csproj.GenerateResource.cache
+C:\Users\rveloz\source\repos\Engraver\PycommCheck\obj\Debug\PycommCheck.csproj.CoreCompileInputs.cache
+C:\Users\rveloz\source\repos\Engraver\PycommCheck\obj\Debug\PycommCheck.exe
+C:\Users\rveloz\source\repos\Engraver\PycommCheck\obj\Debug\PycommCheck.pdb

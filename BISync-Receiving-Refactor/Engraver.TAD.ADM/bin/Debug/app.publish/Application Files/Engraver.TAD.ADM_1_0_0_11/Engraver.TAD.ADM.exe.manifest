@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Engraver.TAD.ADM.exe" version="1.0.0.11" publicKeyToken="32c1bc9aecc51bd4" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Engraver.TAD.ADM" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Engraver.TAD.ADM.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Engraver.TAD.ADM.exe" size="66456">
+      <assemblyIdentity name="Engraver.TAD.ADM" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rRAFt7+ncJ3hdGyL0Ei231VcvicchkwBtyodE7EZKc8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SimpleTCP.dll" size="20480">
+      <assemblyIdentity name="SimpleTCP" version="1.0.24.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Y0FlWWcKuXinFxMVkQhigTGo0Wpy+OmclfbuuH/B5Hw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Engraver.TAD.ADM.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=BI\rveloz" issuerKeyHash="39a97606db61d4c9a9fe41b84446534cd9d30a67" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>uJxQabS7xSWERgQKU9JStDJZH8w2E44wC2RvC5An/HY=</DigestValue></Reference></SignedInfo><SignatureValue>y7sCOhrygPauXnHMUe44EC64I9A1dd60qpKNS/LY/T79Z50ke2ieDlTp8LUbCGl+Y9QQF4r0ACs2xNLaZgloSUEGCjG5JUbTtQrCbT/DxRSy21Nj0aZiRDYXAb8+Nqm1GR+SZXTeO0Zjq3pn1JTyfYt2DrpX9KMkXiykhEvLdgM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>7x970dC+IH+0/zUKq4zBoB80U19AFIeRW31JPJZCg6LTHhxs4+7LNhuOcm0YQxHSZGRpPo+x8Ae7YTxDcFAAwuCwixkJqr1o8ukv8gRYqXY7k0YTGXYtc4zy5wi9VaPMSxrchu4NcIudGA6Y4S21aHqPfpsNFPoNiPQwVRakh8k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="76fc27900b6f640b308e1336cc1f5932b452d2530a04468425c5bbb469509cb8" Description="" Url=""><as:assemblyIdentity name="Engraver.TAD.ADM.exe" version="1.0.0.11" publicKeyToken="32c1bc9aecc51bd4" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=BI\rveloz</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6CRlxhUFINX4Jm7bTw4ZEg9Kx3es/Z7p97fc1nr0A70=</DigestValue></Reference></SignedInfo><SignatureValue>k0Qj8XRNjiPuXJyxQv7WZcRnImY1o4doo6vitub04qJjgsOxoBSwuJLA5a0V9Pnlhvap5kpsGMlUtMHwD42ENl6x2rmrr2IG7CGXBRcHPDszHqVUIdtQOMOn0iJ4Z0POK5qZW++ZN3r0Ro9QmUtHTgjVhDrcSqRwlS8iIPhCT/A=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>7x970dC+IH+0/zUKq4zBoB80U19AFIeRW31JPJZCg6LTHhxs4+7LNhuOcm0YQxHSZGRpPo+x8Ae7YTxDcFAAwuCwixkJqr1o8ukv8gRYqXY7k0YTGXYtc4zy5wi9VaPMSxrchu4NcIudGA6Y4S21aHqPfpsNFPoNiPQwVRakh8k=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBvTCCASagAwIBAgIQVD7NqZBcarBAvftIhf/0UDANBgkqhkiG9w0BAQsFADAdMRswGQYDVQQDHhIAQgBJAFwAcgB2AGUAbABvAHowHhcNMTkwNzE3MDA1NTQxWhcNMjAwNzE2MDY1NTQxWjAdMRswGQYDVQQDHhIAQgBJAFwAcgB2AGUAbABvAHowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAO8fe9HQviB/tP81CquMwaAfNFNfQBSHkVt9STyWQoOi0x4cbOPuyzYbjnJtGEMR0mRkaT6PsfAHu2E8Q3BQAMLgsIsZCaq9aPLpL/IEWKl2O5NGExl2LXOM8ucIvVWjzEsa3IbuDXCLnRgOmOEttWh6j36bDRT6DYj0MFUWpIfJAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAGZ54zS30kBMyRVJpCs3wmnB6ISJghqB0ehO2wFrcWDK4Z3yJ4skSPKUrFbhtUe2Iy3G4wgXhVA1vP3Dq+tZhJGK3aTxG1XbUrc4IWMpXA+Z8V79VchtRSMH46aw9wy+a+wWb8inO3w4CO59FwhL3zsMS2R6PEqqq1HnzePM8mDg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

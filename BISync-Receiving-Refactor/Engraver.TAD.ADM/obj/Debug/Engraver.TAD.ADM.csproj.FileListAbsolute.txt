@@ -1,0 +1,16 @@
+C:\Users\rveloz\source\repos\Engraver\Engraver.TAD.ADM\bin\Debug\Engraver.TAD.ADM.exe.config
+C:\Users\rveloz\source\repos\Engraver\Engraver.TAD.ADM\bin\Debug\Engraver.TAD.ADM.exe.manifest
+C:\Users\rveloz\source\repos\Engraver\Engraver.TAD.ADM\bin\Debug\Engraver.TAD.ADM.application
+C:\Users\rveloz\source\repos\Engraver\Engraver.TAD.ADM\bin\Debug\Engraver.TAD.ADM.exe
+C:\Users\rveloz\source\repos\Engraver\Engraver.TAD.ADM\bin\Debug\Engraver.TAD.ADM.pdb
+C:\Users\rveloz\source\repos\Engraver\Engraver.TAD.ADM\bin\Debug\SimpleTCP.dll
+C:\Users\rveloz\source\repos\Engraver\Engraver.TAD.ADM\obj\Debug\Engraver.TAD.ADM.HOME.resources
+C:\Users\rveloz\source\repos\Engraver\Engraver.TAD.ADM\obj\Debug\Engraver.TAD.ADM.Properties.Resources.resources
+C:\Users\rveloz\source\repos\Engraver\Engraver.TAD.ADM\obj\Debug\Engraver.TAD.ADM.csproj.GenerateResource.cache
+C:\Users\rveloz\source\repos\Engraver\Engraver.TAD.ADM\obj\Debug\Engraver.TAD.ADM.csproj.CoreCompileInputs.cache
+C:\Users\rveloz\source\repos\Engraver\Engraver.TAD.ADM\obj\Debug\Engraver.TAD.ADM.exe.manifest
+C:\Users\rveloz\source\repos\Engraver\Engraver.TAD.ADM\obj\Debug\Engraver.TAD.ADM.application
+C:\Users\rveloz\source\repos\Engraver\Engraver.TAD.ADM\obj\Debug\Engraver.TAD.ADM.csproj.CopyComplete
+C:\Users\rveloz\source\repos\Engraver\Engraver.TAD.ADM\obj\Debug\Engraver.TAD.ADM.exe
+C:\Users\rveloz\source\repos\Engraver\Engraver.TAD.ADM\obj\Debug\Engraver.TAD.ADM.pdb
+C:\Users\rveloz\source\repos\Engraver\Engraver.TAD.ADM\obj\Debug\Engraver.TAD.ADM.csprojAssemblyReference.cache

@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Engraver\\Engraver.TAD.ADM\\Engraver.TAD.ADM.csproj": {}
+  },
+  "projects": {
+    "E:\\Engraver\\Engraver.TAD.ADM\\Engraver.TAD.ADM.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Engraver\\Engraver.TAD.ADM\\Engraver.TAD.ADM.csproj",
+        "projectName": "Engraver.TAD.ADM",
+        "projectPath": "E:\\Engraver\\Engraver.TAD.ADM\\Engraver.TAD.ADM.csproj",
+        "packagesPath": "C:\\Users\\rveloz\\.nuget\\packages\\",
+        "outputPath": "E:\\Engraver\\Engraver.TAD.ADM\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\rveloz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "dependencies": {
+            "SimpleTCP": {
+              "target": "Package",
+              "version": "[1.0.24, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
